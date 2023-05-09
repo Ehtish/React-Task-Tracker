@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 export default function Header({ title }) {
   return (
@@ -6,7 +7,7 @@ export default function Header({ title }) {
       <header>
         {/* <h2 style={headingStyle}>{title}</h2> */}
         <h2>{title}</h2>
-        <button className="btn">Add</button>
+        <Button color="green" text="Add" />
       </header>
     </>
   );
